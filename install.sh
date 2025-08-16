@@ -2,9 +2,12 @@
 
 set -e
 
-echo "Get ready to make a few choices:"
-source ~/.local/share/ubuntu-install/install/terminal/required/gum.sh
+echo "Get ready to make a few choices..."
+source ~/.local/share/ubuntu-install/install/terminal/required/gum.sh >/dev/null
 source ~/.local/share/ubuntu-install/install/first-run-choices.sh
+
+echo "Installing flatpak"
+source ~/.local/share/ubuntu-install/install/flatpak.sh
 
 gsettings set org.gnome.desktop.screensaver lock-enabled false
 gsettings set org.gnome.desktop.session idle-delay 0

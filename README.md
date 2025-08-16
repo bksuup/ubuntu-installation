@@ -6,6 +6,11 @@ Most of the general logic behind the install-process is taken directly from [Oma
 
 ## TODO
 
+- [ ] Make Azure / Cloud related packages optional for non Public Cloud users
+- [ ] Choose between default Ubuntu setup, or "riced" with Gnome extensions
+
+## Package List
+
 - Tmux
 - Bluetooth?
 - Doom emacs
