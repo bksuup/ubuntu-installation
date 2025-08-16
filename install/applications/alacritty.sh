@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Dependencies
-sudo apt install cmake g++ pkg-config libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 scdoc
+sudo apt install -y cmake g++ pkg-config libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 scdoc
 
 # Install Rustup for compilation
 curl https://sh.rustup.rs -sSf | sh -s -- -y
