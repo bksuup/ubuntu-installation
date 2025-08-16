@@ -2,7 +2,19 @@
 
 Opinionated setup of Ubuntu. Based on Basecamp's Omakube
 
-## Tasks
+## TODO
 
-- [ ] Remove Firefox from Snap and install via official apt-repo
-- [ ] Install apps via build as apt-packages are outdated
+- Tmux
+- Bluetooth?
+- Doom emacs
+- Flameshot
+- Font install
+- htop / btop
+- Neovim
+- Obsidian
+- Remmina
+- Spotify
+- Teams
+- Gnome Tweaks
+
+- Gnome environment

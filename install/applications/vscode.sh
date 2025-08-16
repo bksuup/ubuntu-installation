@@ -14,4 +14,17 @@ mkdir -p ~/.config/Code/User
 # cp ~/.local/share/omakub/configs/vscode.json ~/.config/Code/User/settings.json
 
 # add list of extensions to install
-# code --install-extensio
+
+code --install-extension ms-azuretools.vscode-bicep \
+	--install-extension hashicorp.terraform \
+	--install-extension ms-kubernetes-tools.vscode-kubernetes-tools \
+	--install-extension ms-vscode.azurecli \
+	--install-extension msazurermtools.azurerm-vscode-tools \
+	--install-extension samcogan.arm-snippets \
+	--install-extension golang.go \
+	--install-extension chaunceykiwi.json-tree-view \
+	--install-extension davidanson.vscode-markdownlint \
+	--install-extension ms-vscode.powershell \
+	--install-extension mechatroner.rainbow-csv \
+	--install-extension vscode-icons-team.vscode-icons \
+	--install-extension redhat.vscode-yaml
