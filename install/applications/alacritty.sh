@@ -6,6 +6,8 @@ sudo apt install -y cmake g++ pkg-config libfontconfig1-dev libxcb-xfixes0-dev l
 # Install Rustup for compilation
 curl https://sh.rustup.rs -sSf | sh -s -- -y
 
+. "$HOME/.cargo/env"
+
 rustup override set stable
 rustup update stable
 
