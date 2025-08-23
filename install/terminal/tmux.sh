@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt install -y autoconf automake pkg-config
+sudo apt install -y make autoconf automake pkg-config
 
 cd /tmp
 git clone https://github.com/tmux/tmux.git
