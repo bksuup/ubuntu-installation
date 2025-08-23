@@ -13,4 +13,4 @@ cd -
 sudo apt-get update && sudo apt-get install -y powershell
 
 # Install Azure tools and update health
-../after/powershell-modules.sh
+~/.local/share/ubuntu-install/install/after/powershell-modules.sh
