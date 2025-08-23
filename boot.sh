@@ -14,7 +14,7 @@ ___.    __           .__          __  .__
 echo -e "$ascii_art"
 
 sudo apt update > /dev/null
-sudo apt install git > /dev/null
+sudo apt install git curl > /dev/null
 
 echo "Cloning ubuntu install..."
 rm -fr ~/.local/share/ubuntu-install
