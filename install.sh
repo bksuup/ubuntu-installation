@@ -4,7 +4,7 @@ set -e
 
 echo "Get ready to make a few choices..."
 source ~/.local/share/ubuntu-install/install/terminal/required/gum.sh >/dev/null
-source ~/.local/share/ubuntu-install/install/first-run-choices.sh
+# source ~/.local/share/ubuntu-install/install/first-run-choices.sh
 
 echo "Installing flatpak"
 source ~/.local/share/ubuntu-install/install/flatpak.sh

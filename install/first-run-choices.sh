@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-DESKTOP_ENVIRONMENT=("default-gnome" "tiling")
+AVAILABLE_DESKTOP_ENVIRONMENT=("gnome-default" "gnome-default-with-basic-modifications" "tiling")
+export DESKTOP_ENVIRONMENT=$(gum choose "${AVAILABLE_DESKTOP_ENVIRONMENT[@]}" --limit=1 --selected 'gnome-default' --header "Select desktop environment" | tr ' ' '-')
 
 # Promt user for Cloud Apps or not
 
